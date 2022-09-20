@@ -16,15 +16,25 @@ html, body {
     right: 10%;
 }
 
-.enemy progress {
+progress {
     height: 30px;
     width: 70%;
     background: white;
     margin: 0px auto -30px auto;
     display: block;
 }
+.attacks progress {
+    margin-top: -60px;
+}
+.enemy progress::-webkit-progress-value {
+    background: red;
+}
+.attacks progress::-webkit-progress-value {
+    background: green;
+}
 
-.hp-text {
+.hp-text, .ap-text {
+    width: 100%;
     color: white;
     font-family: sans-serif;
     font-weight: bold;
@@ -32,6 +42,10 @@ html, body {
     padding-bottom: 10px;
     font-size: 20px;
     text-shadow: 0px 0px 9px #ff0000;
+}
+.attacks .ap-text {
+    margin-top: -100px;
+    text-shadow: 0px 0px 9px #00ff00;
 }
 
 
@@ -94,4 +108,60 @@ html, body {
 @keyframes spawn {
   from { background-position: -21px; }
   to { background-position: -2436px; }
+}
+
+
+
+/* Make the screen shake when you click on it
+  (for attacks)
+ */
+body:has( .attacks button:active) {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+/* https://www.w3schools.com/howto/howto_css_shake_image.asp */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.attacks {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    display: flex;
+    width: 360px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.attack-btn {
+    width: 168px;
+    height: 168px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+.attack-btn.arcane-sceptre {
+    background-image: url('./images/arcane-sceptre.png');
+}
+.attack-btn.entangle {
+    background-image: url('./images/entangle-3.png');
+}
+.attack-btn.dragon-blade {
+    background-image: url('./images/dragon-blade-3.png');
+}
+.attack-btn.star-fire {
+    background-image: url('./images/star-fire.png');
 }
