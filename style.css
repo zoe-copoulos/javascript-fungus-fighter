@@ -76,11 +76,14 @@ html, body {
 .freaky-fungus.die {
     background: url('images/mushroom-die.png') no-repeat -21px;
     animation-name: die;
-    animation-timing-function: steps(6);
+    animation-timing-function: steps(5);
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 }
 @keyframes die {
   from { background-position: -21px; }
-  to { background-position: -3738px; }
+  /* to { background-position: -3738px; } */
+  to { background-position: -3150px; }
 }
 
 .freaky-fungus.spawn {
