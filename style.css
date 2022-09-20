@@ -10,11 +10,32 @@ html, body {
     height: 100%;
 }
 
-.freaky-fungus {
+.enemy {
     position: absolute;
     top: 10%;
     right: 10%;
+}
 
+.enemy progress {
+    height: 30px;
+    width: 70%;
+    background: white;
+    margin: 0px auto -30px auto;
+    display: block;
+}
+
+.hp-text {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-shadow: 0px 0px 9px #ff0000;
+}
+
+
+.freaky-fungus {
 	width: 462px;
 	height: 588px;
 
