@@ -1,0 +1,57 @@
+.freaky-fungus {
+	width: 462px;
+	height: 588px;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.freaky-fungus.idle {
+    background: url('images/mushroom-idle.png') no-repeat -21px;
+    animation-name: idle;
+    animation-timing-function: steps(8);
+}
+@keyframes idle {
+  from { background-position: -21px; }
+  to { background-position: -4872px; }
+}
+
+.freaky-fungus.walk {
+    background: url('images/mushroom-walk.png') no-repeat -21px;
+    animation-name: walk;
+    animation-timing-function: steps(6);
+}
+@keyframes walk {
+  from { background-position: -21px; }
+  to { background-position: -3654px; }
+}
+
+.freaky-fungus.hurt {
+    background: url('images/mushroom-die.png') no-repeat -21px;
+    animation-name: hurt;
+    animation-timing-function: steps(5);
+}
+@keyframes hurt {
+  from { background-position: -21px; }
+  to { background-position: -3150px; }
+}
+
+.freaky-fungus.die {
+    background: url('images/mushroom-die.png') no-repeat -21px;
+    animation-name: die;
+    animation-timing-function: steps(6);
+}
+@keyframes die {
+  from { background-position: -21px; }
+  to { background-position: -3738px; }
+}
+
+.freaky-fungus.spawn {
+    background: url('images/mushroom-die.png') no-repeat -21px;
+    animation-name: spawn;
+    animation-timing-function: steps(4);
+}
+@keyframes spawn {
+  from { background-position: -21px; }
+  to { background-position: -2436px; }
+}
