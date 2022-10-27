@@ -1,7 +1,9 @@
 $(document).ready(onReady);
 
 // State Variables can be declared outside of the onReady
-let fungusHP = 100;
+// Feel free to make this to what you want!
+// Example:
+// let fungusHP = 100;
 
 function onReady() {
     // 🧠 Remember
