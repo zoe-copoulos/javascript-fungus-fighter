@@ -6,6 +6,11 @@ $(document).ready(onReady);
 // let fungusHP = 100;
 
 function onReady() {
+    
+    // Make sure you check the index.html file! 
+    // There are lots of buttons and things ready for you to hook into here!
+    
+    
     // 🧠 Remember
     // - Handle events that ->
     // - Updates state which is ->
