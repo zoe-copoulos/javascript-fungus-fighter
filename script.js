@@ -1,9 +1,10 @@
 $(document).ready(onReady);
 
+// State Variables can be declared outside of the onReady
 
 function onReady() {
     // 🧠 Remember
-    // - Handle events
-    // - Update state
-    // - Render to the DOM
+    // - Handle events that ->
+    // - Updates state which is ->
+    // - Rendered to the DOM
 }
