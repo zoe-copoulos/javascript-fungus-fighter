@@ -174,8 +174,8 @@ body:has( .freaky-fungus.dead) {
     left: 0;
 }
 
-.attack-btn.arcane-sceptre {
-    background-image: url('./images/arcane-sceptre.png');
+.attack-btn.arcane-scepter {
+    background-image: url('./images/arcane-scepter.png');
 }
 .attack-btn.entangle {
     background-image: url('./images/entangle-3.png');

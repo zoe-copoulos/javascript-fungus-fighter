@@ -48,7 +48,7 @@ If the Freaky Fungus' HP falls below 50, have it regenerate 1 HP every second.
 
 ## Attacks
 
-### ![arcane scepter](./images/arcane-sceptre.png) Arcane Scepter
+### ![arcane scepter](./images/arcane-scepter.png) Arcane Scepter
 
 - **AP Cost:** 12
 - **HP Damage:** 14
