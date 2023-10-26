@@ -1,10 +1,10 @@
-# jQuery Fungus Fighter
+# JavaScript Fungus Fighter
 
-Fight mutant fungus villains, with jQuery!
+Fight mutant fungus villains, with JavaScript!
 
 ![demo](demo.gif)
 
-It is you versus the Freaky Fungus, an evil mycological menace from mars. Use your jQuery skills to dispatch attacks against your enemy. To win, the Freaky Fungus must have 0 hit points (HP) before you are out of attack points (AP).
+It is you versus the Freaky Fungus, an evil mycological menace from ***Duluth***. Use your JavaScript skills to dispatch attacks against your enemy. To win, the Freaky Fungus must have 0 hit points (HP) before you are out of attack points (AP).
 
 
 
@@ -35,7 +35,7 @@ When you click an attack button:
 When state changes:
   - Update the value of each `<progress>` element
 
-> Hint: the jQuery `.val()` method updates the `value` attribute of HTML elements!
+> Hint: In JavaScript `.value` property can be used to update the value that is currently held by an input field. ([Documentation](https://www.w3schools.com/jsref/prop_text_value.asp))
 
 **HP Regeneration**
 
