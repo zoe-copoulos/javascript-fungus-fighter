@@ -4,7 +4,7 @@ Fight mutant fungus villains, with JavaScript!
 
 ![demo](demo.gif)
 
-It is you versus the Freaky Fungus, an evil mycological menace from ***Wisconsin***. Use your JavaScript skills to dispatch attacks against your enemy. To win, the Freaky Fungus must have 0 hit points (HP) before you are out of attack points (AP).
+It is you versus the Freaky Fungus, an evil mycological menace from ***Duluth***. Use your JavaScript skills to dispatch attacks against your enemy. To win, the Freaky Fungus must have 0 hit points (HP) before you are out of attack points (AP).
 
 
 
